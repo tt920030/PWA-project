@@ -1,0 +1,21 @@
+.input-container {
+  width: 380px;
+  height: 56px;
+}
+
+.sendMail {
+  &__input-icon {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+  }
+
+  &__input {
+    padding-left: 55px;
+    padding-right: 15px;
+  }
+
+  &__btn {
+    width: 64px;
+  }
+}

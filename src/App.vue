@@ -1,18 +1,17 @@
 <template>
-  <HeaderLayout></HeaderLayout>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav> -->
+  <HeaderLayout />
   <router-view/>
+  <FooterLayout />
 </template>
 
 <script>
 import HeaderLayout from '@/layout/HeaderLayout'
+import FooterLayout from '@/layout/FooterLayout'
 
 export default {
   components: {
-    HeaderLayout
+    HeaderLayout,
+    FooterLayout
   }
 }
 </script>

@@ -1,4 +1,25 @@
 html {
   font-size: $font-sm;
   font-family: 'PingFang TC', 'Semibold';
+  color:$fc-primary;
+}
+
+h2 {
+  font-size: $font-lg;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color:$fc-primary;
+}
+
+.material-icons {
+  color: $icon-color;
+  vertical-align: middle;
+}
+
+input[type="text"] {
+  outline: 0;
+  border: 0;
 }

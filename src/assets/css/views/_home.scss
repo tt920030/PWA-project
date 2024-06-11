@@ -1,0 +1,23 @@
+.home {
+  &__picture-container {
+    margin-bottom: 227px;
+  }
+
+  &__links {
+    transform: translateY(-30%);
+  }
+
+  $link-img: (
+    1: "https://bit.ly/2R5tqwD",
+    2: "https://bit.ly/2Dwoxd7",
+    3: "https://bit.ly/2OUteif"
+  );
+
+  &__link {
+    @each $i, $url in $link-img {
+      &--#{$i} {
+        background-image: url(#{$url});
+      }
+    }
+  }
+}

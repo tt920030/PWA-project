@@ -1,24 +1,5 @@
 .navbar {
-  height: 100px;
-  padding: 30px 42px;
-
-  &__logo-container {
-    height: 40px;
-  }
-
-  &__logo {
-    height: 100%;
-  }
-
-  &__link {
-    margin-right: 60px;
-    text-decoration: none;
-    font-weight: bold;
-    color: $font-color-primary;
-
-    &--cart {
-      margin-left: 12px;
-      margin-right: 0;
-    }
+  &__icon {
+    margin-left: 12px;
   }
 }

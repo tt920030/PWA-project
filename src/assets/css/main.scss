@@ -4,23 +4,31 @@
 @import 'base/reset';
 @import 'base/font';
 
+// Import utility styles
+// @import 'utilities/functions';
+@import 'utilities/helpers';
+// @import 'utilities/responsive';
+@import 'utilities/flex';
+@import 'utilities/grid';
+
+// Import modules styles
+@import 'modules/img';
+@import 'modules/color';
+@import 'modules/forms';
+
+// Import component styles
+@import 'components/link';
+@import 'components/banner';
+// @import 'components/buttons';
+// @import 'components/forms';
+// @import 'components/modals';
+
 // Import layout styles
 // @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
 
-// Import component styles
-// @import 'components/buttons';
-// @import 'components/forms';
-// @import 'components/modals';
-
-// Import utility styles
-// @import 'utilities/functions';
-// @import 'utilities/helpers';
-// @import 'utilities/responsive';
-@import 'utilities/flex';
-
-// Import page specific styles
-// @import 'pages/home';
+// Import views specific styles
+@import 'views/home';
 // @import 'pages/about';
 // @import 'pages/contact';
