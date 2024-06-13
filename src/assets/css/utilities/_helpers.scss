@@ -245,6 +245,16 @@ $utilities: map-merge(
       5: 5,
       last: 6,
     ),
+  ),
+  "text-align": (
+    responsive: true,
+    property: text-align,
+    class: text,
+    values: (
+      start: left,
+      end: right,
+      center: center,
+    )
   )
 )
 ,

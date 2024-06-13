@@ -1,0 +1,45 @@
+.list {
+  padding: 20px 0;
+  border-bottom: 1px solid $green-100;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  &__picture-container {
+    width: 110px;
+    height: 110px;
+  }
+
+  &__info,
+  &__total {
+    // width: 17%;
+  }
+
+  &__text {
+    font-weight: normal;
+  }
+
+  &__btn {
+    width: 48px;
+    height: 48px;
+    border: 1px solid $green-100;
+    border-right: none;
+
+    &:last-child {
+      border-right: 1px solid $green-100;
+    }
+
+    &--hover {
+      &:hover {
+        @include bg-style($green-300, $green-100);
+      }
+    }
+  }
+
+  &__delete {
+    cursor: pointer;
+    color: $green-200;
+  }
+}

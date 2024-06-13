@@ -5,7 +5,6 @@
 @import 'base/font';
 
 // Import utility styles
-// @import 'utilities/functions';
 @import 'utilities/helpers';
 // @import 'utilities/responsive';
 @import 'utilities/flex';
@@ -15,13 +14,14 @@
 @import 'modules/img';
 @import 'modules/color';
 @import 'modules/forms';
+@import 'modules/button';
 
 // Import component styles
 @import 'components/link';
 @import 'components/banner';
-// @import 'components/buttons';
-// @import 'components/forms';
-// @import 'components/modals';
+@import 'components/card';
+@import 'components/pagination';
+@import 'components/list';
 
 // Import layout styles
 // @import 'layout/grid';
@@ -30,5 +30,7 @@
 
 // Import views specific styles
 @import 'views/home';
-// @import 'pages/about';
-// @import 'pages/contact';
+@import 'views/product';
+@import 'views/login';
+@import 'views/cart';
+@import 'views/checkout';

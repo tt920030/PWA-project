@@ -10,20 +10,14 @@
     top: 0;
   }
 
-  &__picture-container {
-    width: 50%;
-    height: 100%;
-  }
-
   &__title {
     margin-left: 80px;
   }
 
   &__content-container {
     padding: 90px 0;
-    // margin-left: 55px;
     writing-mode: vertical-rl;
-    color: $green-200;
+    color: $fc-tertiary;
     line-height: 2;
   }
 

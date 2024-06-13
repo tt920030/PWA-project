@@ -1,0 +1,17 @@
+.pagination {
+  &__item {
+    width: 60px;
+    height: 60px;
+    border: 1px solid $green-100;
+    border-right: none;
+    cursor: pointer;
+
+    &:last-child {
+      border-right: 1px solid $green-100;
+    }
+
+    &:hover {
+      @include bg-style($green-300, $green-100);
+    }
+  }
+}

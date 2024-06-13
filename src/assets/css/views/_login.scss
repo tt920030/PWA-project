@@ -1,0 +1,39 @@
+.login {
+  .sign {
+    width: 390px;
+  
+    &__title {
+      padding: 40px 0;
+    }
+  
+    &__input-group {
+      margin-bottom: 16px;
+  
+      &:last-child {
+        margin-bottom: 13px;
+      }
+    }
+  
+    &__checkbox-group {
+      margin-bottom: 22px;
+    }
+  }
+  
+  .media {
+    color: $green-200;
+  
+    &__title {
+      margin-top: 40px;
+      margin-bottom: 36px;
+    }
+  
+    &__btn {
+      background-color: $white;
+      margin-bottom: 16px;
+  
+      &:last-child {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

@@ -1,26 +1,26 @@
 <template>
   <footer class="footer">
-    <div class="container bg-secondary py-2">
+    <div class="subscribe container bg-secondary py-2">
       <div class="row justify-content-center">
         <div class="col-10 flex-space-between">
           <div class="flex-center">
             <img
-              class="footer__logo-icon"
+              class="subscribe__logo-icon"
               src="@/assets/img/logo-light.png"
             >
             <h2>訂閱你我的甜蜜郵件</h2>
           </div>
-          <div class="sendMail input-container d-flex">
-            <div class="p-relative w-100">
-              <span class="sendMail__input-icon p-absolute material-icons">
+          <div class="subscribe__input-container d-flex">
+            <div class="input-group p-relative w-100 bg-primary">
+              <span class="input-group__icon p-absolute material-icons">
                 email
               </span>
               <input
-                class="sendMail__input w-100 h-100 bg-primary"
+                class="input-group__input"
                 type="text"
               >
             </div>
-            <button class="sendMail__btn bg-tertiary">
+            <button class="subscribe__btn btn-sm bg-tertiary">
               <span class="material-icons">
                 arrow_forward
               </span>
@@ -29,33 +29,33 @@
         </div>
       </div>
     </div>
-    <div class="container bg-primary py-2">
+    <div class="info container bg-primary py-2">
       <div class="row justify-content-center">
         <div class="col-10 flex-space-between">
           <div>
             <img
-              class="footer__logo-text"
+              class="info__logo"
               src="@/assets/img/logotype-lg-dark.png"
             >
-            <p class="footer__info">07-1234-5678</p>
-            <p class="footer__info">sweetaste@email.com</p>
-            <p class="footer__info mb-2">
+            <p class="info__text">07-1234-5678</p>
+            <p class="info__text">sweetaste@email.com</p>
+            <p class="info__text mb-2">
               800 高雄市新興區幸福路 520 號
             </p>
             <div>
               <img
-                class="footer__icon-media"
+                class="info__icon"
                 src="@/assets/img/ic-line@.svg"
               >
               <img
-                class="footer__icon-media"
+                class="info__icon"
                 src="@/assets/img/ic-facebook.svg"
               >
             </div>
           </div>
           <div class="flex-space-between flex-column align-items-end h-100">
             <img src="@/assets/img/sm-今天是個吃甜點的好日子.png">
-            <p class="footer__copyRight">
+            <p class="info__copyRight">
               © 2018 Sweetaste* All Rights Reserved
             </p>
           </div>

@@ -1,21 +1,21 @@
-.input-container {
-  width: 380px;
-  height: 56px;
-}
+.input-group {
+  position: relative;
 
-.sendMail {
-  &__input-icon {
+  &__icon {
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 20px;
   }
 
   &__input {
-    padding-left: 55px;
-    padding-right: 15px;
+    padding-left: 64px;
+    padding-right: 20px;
   }
+}
 
-  &__btn {
-    width: 64px;
+.checkbox-group {
+  &__input {
+    margin-right: 8px;
   }
 }

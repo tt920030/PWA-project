@@ -1,0 +1,26 @@
+.product {
+  &__bg-slogan {
+    top: 10%;
+    right: 5%;
+  }
+
+  &__card {
+    margin-bottom: 20px;
+  }
+
+  .nav {
+    &__navList {
+      border: 1px solid $green-100;
+      border-top: none;
+      cursor: pointer;
+
+      &:hover {
+        @include bg-style($green-100, $green-300);
+      }
+    }
+  }
+
+  &__pagination {
+    margin-top: 10px;
+  }
+}
