@@ -1,0 +1,22 @@
+.check {
+  padding: 30px 40px;
+
+  &__row {
+    margin-bottom: 16px;
+    margin-right: 0;
+    margin-left: 0;
+
+    &--input-group {
+      margin-bottom: 8px;
+    }
+  }
+
+  &__col {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  &__label {
+    margin-bottom: 8px;
+  }
+}

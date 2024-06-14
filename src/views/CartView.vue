@@ -1,7 +1,7 @@
 <template>
-  <div class="cart container mb-5">
+  <div class="container mb-5">
     <div class="row">
-      <div class="col-8">
+      <div class="col-8 cart">
         <h2 class="cart__title bg-primary text-center">您的購物車</h2>
         <template v-for="list in lists" :key="list.name">
           <ListItem
@@ -13,15 +13,17 @@
       </div>
       <div class="col-4">
         <div class="order-sum bg-secondary">
-          <h3 class="order-sum__title text-center">訂單摘要</h3>
-          <div class="order-sum__line flex-space-between">
-            <p>小計</p><p>NT$ 2,700</p>
-          </div>
-          <div class="order-sum__line flex-space-between">
-            <p>運費</p><p>NT$ 300</p>
-          </div>
-          <div class="order-sum__total flex-space-between">
-            <h3>總計</h3><h3>NT$ 3,000</h3>
+          <h2 class="order-sum__title order-sum__title--primary text-center">訂單摘要</h2>
+          <div class="order-sum__lines">
+            <div class="order-sum__line flex-space-between">
+              <p>小計</p><p>NT$ 2,700</p>
+            </div>
+            <div class="order-sum__line flex-space-between">
+              <p>運費</p><p>NT$ 300</p>
+            </div>
+            <div class="order-sum__total flex-space-between">
+              <h3>總計</h3><h3>NT$ 3,000</h3>
+            </div>
           </div>
         </div>
         <router-link to="/checkout">

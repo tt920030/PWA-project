@@ -1,0 +1,31 @@
+.order-sum {
+  &__title {
+    padding: 16px 0;
+    border-bottom: 1px solid $green-100;
+
+    &--primary {
+      margin: 0 20px;
+    }
+
+    &--secondary {
+      color: $green-200;
+    }
+  }
+
+  &__lines {
+    padding: 16px 20px;
+
+    &--secondary {
+      color: $green-200;
+      border: 1px solid $green-100;
+    }
+  }
+
+  &__line {
+    margin-bottom: 8px;
+  }
+
+  &__total {
+    margin-top: 16px;
+  }
+}

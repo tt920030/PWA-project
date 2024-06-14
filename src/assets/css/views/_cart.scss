@@ -4,21 +4,4 @@
     line-height: 65px;
     margin-bottom: 13px;
   }
-
-  .order-sum {
-    padding: 0 20px 16px;
-
-    &__title {
-      padding: 16px 0;
-      border-bottom: 1px solid $green-100;
-    }
-
-    &__line {
-      margin: 8px 0;
-    }
-
-    &__total {
-      margin-top: 16px;
-    }
-  }
 }

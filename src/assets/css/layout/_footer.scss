@@ -1,35 +1,33 @@
-.footer {
-  .subscribe {
-    &__logo-icon {
-      margin-right: 20px;
-    }
-  
-    &__input-container {
-      width: 380px;
-    }
-  
-    &__btn {
-      width: 64px;
-    }
+.subscribe {
+  &__logo-icon {
+    margin-right: 20px;
   }
-  
-  .info {
-    &__logo {
-      margin-bottom: 115px;
-    }
-  
-    &__text {
-      font-family: "Helvetica Neue, Regular";
-      line-height: 1.5;
-    }
-  
-    &__icon {
-      width: 32px;
-      margin-right: 8px;
-    }
-  
-    &__copyRight {
-      font-family: "Times, Regular";
-    }
+
+  &__input-container {
+    width: 380px;
+  }
+
+  &__btn {
+    width: 64px;
+  }
+}
+
+.info {
+  &__logo {
+    margin-bottom: 115px;
+  }
+
+  &__text {
+    font-family: "Helvetica Neue, Regular";
+    line-height: 1.5;
+  }
+
+  &__icon {
+    width: 32px;
+    margin-right: 8px;
+  }
+
+  &__copyRight {
+    font-family: "Times, Regular";
   }
 }
